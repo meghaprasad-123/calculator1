@@ -1,0 +1,75 @@
+body{
+    background-color: bisque;
+}
+
+
+#outerline{
+    margin-top: 50px;
+    margin-left: 550px;
+    width: 377px;
+    height: 500px;
+    background-color: rgb(11, 11, 12);
+    box-shadow: 5px 7px #888888;
+    border-radius: 29px;
+}
+@media(max-width:400px){
+    #outerline{
+        margin-left: 10px;
+    }
+}
+input{
+    width: 313px;
+    height: 45px;
+    margin-top: 34px;
+    margin-left: 20px;
+    padding: 11px;
+    border-radius: 16px;
+    text-align: end;
+    font-size: x-large;
+    background-color: azure;
+    color: black;
+}
+.b1{
+    width: 52px;
+    height: 52px;
+    margin-left: 32px;
+    margin-top: 22px;
+    font-size: medium;
+    background-color: rgb(24, 66, 76);
+    color: white;
+    border-radius: 16px;
+}
+.b1:hover{
+    background-color: white;
+    color: black;
+}
+.b2{
+    width: 52px;
+    height: 52px;
+
+    margin-left: 32px;
+    margin-top: 22px;
+    font-size: medium;
+    background-color: rgb(37, 113, 132);
+    color: white;
+    border-radius: 16px;
+}
+.b2:hover{
+    background-color: white;
+    color: black;
+}
+.b3{
+    width: 52px;
+    height: 52px;
+
+    margin-left: 32px;
+    margin-top: 22px;
+    font-size: medium;
+    background-color: rgb(29, 37, 40);
+    color: rgb(242, 203, 76);
+    border-radius: 16px;
+}
+.b3:hover{
+    background-color: white;
+    color: black;
+}
